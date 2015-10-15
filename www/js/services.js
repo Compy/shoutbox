@@ -1,8 +1,8 @@
 angular.module('starter.services', [])
 .factory('TwitterService', function($cordovaOauth, $cordovaOauthUtility, $http, $resource, $q) {
   var twitterKey = "STORAGE.TWITTER.KEY";
-  var clientId = "oygfO2el6S3pKD8sLZClLWc6H";
-  var clientSecret = "IL2dp5pZdAmG6CGuBCNqTCx1jBUZBYLX4xTsSzbO8G9ukQWjKY";
+  var clientId = "CLIENT";
+  var clientSecret = "IL2dp5pZdAmG6CGuBCNqTCx1jBUZBYLX4xTsSzbssO8G9ukQWjKY";
   
     // 2
     function storeUserToken(data) {
