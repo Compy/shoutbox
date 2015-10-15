@@ -1,0 +1,25 @@
+<ion-view view-title="Settings">
+  <ion-content>
+    <ion-list>
+    <ion-toggle ng-click="saveSettings()" ng-model="settings.recentFirst">
+        Read tweets most recent first
+    </ion-toggle>
+    <ion-toggle ng-click="saveSettings()" ng-model="settings.skipUrls">
+        Skip URLs
+    </ion-toggle>
+    <ion-toggle ng-click="saveSettings()" ng-model="settings.skipHashtags">
+        Skip Hashtags
+    </ion-toggle>
+    <ion-toggle ng-click="saveSettings()" ng-model="settings.skipMentions">
+        Skip Mentions
+    </ion-toggle>
+    </ion-list>
+    
+    <div class="card">
+      <div class="item item-text-wrap">
+        This app was made with love by the folks at 86Pixels.<br/><br/>
+        <a href="#" onclick="window.open(‘http://www.86pixels.com’, ‘_blank’); return false;">http://www.86pixels.com</a>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
